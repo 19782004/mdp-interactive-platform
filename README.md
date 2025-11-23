@@ -1,6 +1,12 @@
 # mdp-interactive-platform
 Interactive web platform to explore Markov Decision Processes (MDPs) with live visualization of Value Iteration, Policy Iteration, and Q-Learning algorithms
 
+## 🌐 Live Demo
+
+**Try it now:** [MDP Interactive Platform](https://fuzzy-cod-6699x5p6xqqcxx6v-3000.app.github.dev/)
+
+Experience the live interactive visualization of Markov Decision Processes with real-time algorithm execution!
+
 ## 🎓 Overview
 
 This project is an interactive web-based platform for exploring and visualizing Markov Decision Processes (MDPs) and reinforcement learning algorithms. It provides:
