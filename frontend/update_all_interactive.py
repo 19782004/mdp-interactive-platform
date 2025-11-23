@@ -1,4 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import os
+
+print("\n🎬 Creating fully interactive animated components...\n")
+
+# Enhanced MDPVisualizer with live animation
+with open('src/components/MDPVisualizer.tsx', 'w') as f:
+    f.write('''import React, { useEffect, useState } from 'react';
 import { MDP } from '../models/MDP';
 import { valueIteration, IterationStep } from '../algorithms/valueIteration';
 import StateTransitionGraph from './StateTransitionGraph';
@@ -115,3 +121,6 @@ const MDPVisualizer: React.FC<Props> = ({ mdp, algorithm, isPlaying, speed, onRe
 };
 
 export default MDPVisualizer;
+''')
+print("✓ Enhanced MDPVisualizer.tsx with animation")
+

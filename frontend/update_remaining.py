@@ -1,4 +1,10 @@
-import React, { useEffect, useRef } from 'react';
+import os
+
+print("\nUpdating remaining components for interactivity...\n")
+
+# Enhanced StateTransitionGraph with active state highlighting
+with open('src/components/StateTransitionGraph.tsx', 'w') as f:
+    f.write('''import React, { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 import { MDP } from '../models/MDP';
 
@@ -154,3 +160,6 @@ const StateTransitionGraph: React.FC<Props> = ({ mdp, currentValues, activeState
 };
 
 export default StateTransitionGraph;
+''')
+print("✓ Enhanced StateTransitionGraph.tsx with active state highlighting")
+
